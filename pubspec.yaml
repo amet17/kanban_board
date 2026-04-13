@@ -1,0 +1,32 @@
+name: kanban_board
+description: "KPI Drive kanban board test assignment"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.1.1
+  dio: ^5.9.0
+  retrofit: ^4.7.3
+  get_it: ^8.2.0
+  injectable: ^2.5.2
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.10.1
+  retrofit_generator: ^10.0.4
+  injectable_generator: ^2.8.1
+  freezed: ^3.2.3
+  json_serializable: ^6.11.0
+
+flutter:
+  uses-material-design: true
