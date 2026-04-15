@@ -6,7 +6,7 @@ abstract final class KanbanRequestDefaults {
   static const String periodStart = '2026-04-01';
   static const String periodEnd = '2026-04-30';
   static const String periodKey = 'month';
-  static const int requestedMoId = 42;
+  static const int requestedMoId = 2;
   static const String behaviourKey = 'task,kpi_task';
   static const String withResult = 'false';
   static const String responseFields =
